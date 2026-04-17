@@ -17,10 +17,7 @@ export default function Footer() {
                   <path d="M4 8.5V18H16V8.5" stroke="#07101f" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <div>
-                <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 800, fontSize: '15px', color: '#f6f1e9', textTransform: 'uppercase', letterSpacing: '0.04em' }}>[AREA]</div>
-                <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 700, fontSize: '10px', color: '#e09118', textTransform: 'uppercase', letterSpacing: '0.12em' }}>Roofing Solutions</div>
-              </div>
+              <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 800, fontSize: '15px', color: '#f6f1e9', textTransform: 'uppercase', letterSpacing: '0.04em' }}>[BUSINESS NAME]</div>
             </Link>
             <p style={{ fontFamily: "'Lora',serif", fontStyle: 'italic', fontSize: '14px', color: '#6e8aaa', lineHeight: 1.7 }}>
               [TAGLINE]

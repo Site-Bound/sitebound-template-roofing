@@ -50,21 +50,12 @@ export default function Navbar() {
                 <path d="M4 8.5V18H16V8.5" stroke="#07101f" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </div>
-            <div>
-              <div style={{
-                fontFamily: "'Big Shoulders Display', sans-serif",
-                fontWeight: 800, fontSize: '16px', letterSpacing: '0.04em',
-                color: '#f6f1e9', lineHeight: 1.1, textTransform: 'uppercase',
-              }}>
-                [AREA]
-              </div>
-              <div style={{
-                fontFamily: "'Big Shoulders Display', sans-serif",
-                fontWeight: 700, fontSize: '11px', letterSpacing: '0.12em',
-                color: '#e09118', textTransform: 'uppercase', lineHeight: 1,
-              }}>
-                Roofing Solutions
-              </div>
+            <div style={{
+              fontFamily: "'Big Shoulders Display', sans-serif",
+              fontWeight: 800, fontSize: '16px', letterSpacing: '0.04em',
+              color: '#f6f1e9', lineHeight: 1.1, textTransform: 'uppercase',
+            }}>
+              [BUSINESS NAME]
             </div>
           </Link>
 
