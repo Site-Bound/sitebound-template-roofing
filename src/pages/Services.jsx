@@ -4,51 +4,51 @@ import { useReveal } from '../hooks/useReveal'
 const SERVICES = [
   {
     num: '01',
-    title: 'New [TRADE WORK]s',
+    title: '[SERVICE 1 NAME]',
     icon: <svg width="32" height="32" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3 10.5L12 3l9 7.5V21H3V10.5z"/></svg>,
-    intro: 'Whether your [TRADE WORK] is past its best or you are building something new, we manage the full installation from survey to sign-off.',
-    body: 'Every new [TRADE WORK] starts with a proper survey and a clear, itemised quote so you know exactly what you are getting before a single tile goes up. We use quality materials from trusted suppliers and take the time to do the detailing right — flashings, ridge work, valleys — because that is where most [TRADE WORK]s fail.',
-    points: ['Full strip and re-[TRADE WORK] on residential and commercial properties', 'Natural slate and concrete or clay tile installations', 'Breathable membrane and modern batten systems', 'Ridge, hip, and valley detailing done properly', 'New [TRADE WORK] structures for extensions and outbuildings', 'All work guaranteed and fully insured'],
+    intro: 'Whether your roof is past its best or you are building something new, we manage the full installation from survey to sign-off.',
+    body: 'Every new roof starts with a proper survey and a clear, itemised quote so you know exactly what you are getting before a single tile goes up. We use quality materials from trusted suppliers and take the time to do the detailing right — flashings, ridge work, valleys — because that is where most roofs fail.',
+    points: ['Full strip and re-roof on residential and commercial properties', 'Natural slate and concrete or clay tile installations', 'Breathable membrane and modern batten systems', 'Ridge, hip, and valley detailing done properly', 'New roof structures for extensions and outbuildings', 'All work guaranteed and fully insured'],
   },
   {
     num: '02',
-    title: '[TRADE WORK] Repairs',
+    title: '[SERVICE 2 NAME]',
     icon: <svg width="32" height="32" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path strokeLinecap="round" strokeLinejoin="round" d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>,
     intro: 'From a single slipped slate to a persistent leak that nobody else has been able to track down — we find it and fix it properly.',
-    body: '[TRADE WORK] repairs are our bread and butter. Over the years we have tracked down leaks that other [TRADE PERSON]s could not find, replaced tiles on everything from Victorian terraces to modern new builds, and sorted storm damage quickly and efficiently. If you have got a damp patch, water running down a wall, or something that does not look right, give us a call — we will come and look for free.',
+    body: 'Roof repairs are our bread and butter. Over the years we have tracked down leaks that other roofers could not find, replaced tiles on everything from Victorian terraces to modern new builds, and sorted storm damage quickly and efficiently. If you have got a damp patch, water running down a wall, or something that does not look right, give us a call — we will come and look for free.',
     points: ['Broken, cracked, or slipped tile and slate replacement', 'Leak investigation and repair', 'Flashing repairs and resealing', 'Ridge tile repointing and re-bedding', 'Valley repairs and replacement', 'Storm damage assessment and repair'],
   },
   {
     num: '03',
-    title: 'Flat [TRADE WORK]s',
+    title: '[SERVICE 3 NAME]',
     icon: <svg width="32" height="32" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 8h16M4 12h16M4 16h16"/></svg>,
-    intro: 'Modern flat [TRADE WORK] systems installed correctly — that means proper falls, quality waterproofing, and a result that lasts 25 years or more.',
-    body: 'Flat [TRADE WORK]s have a bad reputation that comes entirely from poor installation and cheap materials. When the job is done right — correct system, proper drainage, quality waterproofing — you will not have problems. We work with GRP fibreglass, EPDM rubber, and traditional felt depending on your property and budget, and every installation comes with a guarantee.',
-    points: ['GRP fibreglass flat [TRADE WORK]s — the most durable solution', 'EPDM rubber [TRADE] systems', 'Traditional felt flat [TRADE WORK] replacement', 'Flat [TRADE WORK] repairs and patch work', 'Garage [TRADE WORK]s, extension [TRADE WORK]s, bay windows', 'Proper falls and drainage designed in from the start'],
+    intro: 'Modern flat roof systems installed correctly — that means proper falls, quality waterproofing, and a result that lasts 25 years or more.',
+    body: 'Flat roofs have a bad reputation that comes entirely from poor installation and cheap materials. When the job is done right — correct system, proper drainage, quality waterproofing — you will not have problems. We work with GRP fibreglass, EPDM rubber, and traditional felt depending on your property and budget, and every installation comes with a guarantee.',
+    points: ['GRP fibreglass flat roofs — the most durable solution', 'EPDM rubber roofing systems', 'Traditional felt flat roof replacement', 'Flat roof repairs and patch work', 'Garage roofs, extension roofs, bay windows', 'Proper falls and drainage designed in from the start'],
   },
   {
     num: '04',
-    title: 'Guttering & Fascias',
+    title: '[SERVICE 4 NAME]',
     icon: <svg width="32" height="32" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M6 3h12M6 3a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2M6 3v3m12-3v3M6 6h12"/></svg>,
     intro: 'Blocked, sagging, or cracked gutters quietly cause serious damage. We replace or repair them properly before it becomes a bigger problem.',
-    body: 'Water finding its way behind gutters and into the wall is one of the most common causes of damp in older properties. We replace gutters and fascias as part of [TRADE] projects and as standalone jobs. Whether you want cast iron maintained, or a full uPVC or aluminium replacement, we will advise honestly and do the work correctly.',
+    body: 'Water finding its way behind gutters and into the wall is one of the most common causes of damp in older properties. We replace gutters and fascias as part of roofing projects and as standalone jobs. Whether you want cast iron maintained, or a full uPVC or aluminium replacement, we will advise honestly and do the work correctly.',
     points: ['Full gutter replacement — uPVC, cast iron, and aluminium', 'Fascia and soffit board replacement', 'Downpipe replacement and rerouting', 'Gutter cleaning and maintenance', 'Gutter joint repair and resealing', 'Valley gutter clearing and repair'],
   },
   {
     num: '05',
-    title: 'Chimney Work',
+    title: '[SERVICE 5 NAME]',
     icon: <svg width="32" height="32" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0H5m14 0h2M5 21H3M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>,
     intro: 'Chimneys take a battering from the [AREA] weather. Failed flashing and crumbling mortar are two of the most common sources of hidden damp.',
-    body: 'We carry out all chimney-related [TRADE] work — from simple repointing of the flaunching to complete stack rebuilds. A failed lead flashing or crumbling mortar can let water into your chimney breast and cause serious internal damp that is expensive to put right. We will inspect your chimney properly and give you an honest assessment of what needs doing.',
+    body: 'We carry out all chimney-related roofing work — from simple repointing of the flaunching to complete stack rebuilds. A failed lead flashing or crumbling mortar can let water into your chimney breast and cause serious internal damp that is expensive to put right. We will inspect your chimney properly and give you an honest assessment of what needs doing.',
     points: ['Chimney repointing — mortar and flaunching', 'Lead flashing repair and replacement', 'Chimney stack rebuilds and repairs', 'Chimney pot replacement and cowl fitting', 'Damp investigation related to chimney stacks', 'Redundant chimney capping and weatherproofing'],
   },
   {
     num: '06',
-    title: 'Emergency Call Outs',
+    title: '[SERVICE 6 NAME]',
     icon: <svg width="32" height="32" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>,
     intro: 'When storm damage or an active leak cannot wait, we respond fast to make your property safe and weathertight.',
     body: 'We offer emergency call-outs across the [AREA] for situations that cannot wait for a regular appointment. Where possible we aim to be on site the same day to carry out emergency weatherproofing and make the property safe. We can also assist with insurance claims by providing a full written report of the damage.',
-    points: ['Storm damage — same-day response where possible', 'Active leaks causing internal water ingress', '[TRADE WORK] sections lifted or blown away', 'Emergency temporary weatherproofing', 'Fallen ridge tiles and structural damage', 'Insurance damage reports and assessments'],
+    points: ['Storm damage — same-day response where possible', 'Active leaks causing internal water ingress', 'Roof sections lifted or blown away', 'Emergency temporary weatherproofing', 'Fallen ridge tiles and structural damage', 'Insurance damage reports and assessments'],
   },
 ]
 
@@ -68,10 +68,10 @@ export default function Services() {
         <div style={{ maxWidth: '1152px', margin: '0 auto', padding: '0 24px', position: 'relative' }}>
           <div className="label" style={{ marginBottom: '24px' }}>What We Do</div>
           <h1 className="display" style={{ fontSize: 'clamp(52px,8vw,108px)', color: '#f6f1e9', maxWidth: '700px' }}>
-            Our [TRADE]<br /><span style={{ color: '#e09118' }}>Services.</span>
+            Our Roofing<br /><span style={{ color: '#e09118' }}>Services.</span>
           </h1>
           <p style={{ fontFamily: "'Lora',serif", fontSize: 'clamp(15px,1.4vw,17px)', lineHeight: 1.8, color: '#6e8aaa', maxWidth: '560px', marginTop: '24px' }}>
-            We cover everything from a single broken tile to a complete re-[TRADE WORK]. Every job — large or small — gets the same attention to detail and the same standard of finish.
+            We cover everything from a single broken tile to a complete re-roof. Every job — large or small — gets the same attention to detail and the same standard of finish.
           </p>
         </div>
       </section>

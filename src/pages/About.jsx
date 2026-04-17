@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom'
 import { useReveal } from '../hooks/useReveal'
 
 const VALUES = [
-  { n: '01', title: 'Honest Assessment', body: 'If your [TRADE WORK] only needs a small repair, we will tell you. We are not here to sell you a full replacement you do not need. Our business runs on referrals, and that only works when people trust us.' },
+  { n: '01', title: 'Honest Assessment', body: 'If your roof only needs a small repair, we will tell you. We are not here to sell you a full replacement you do not need. Our business runs on referrals, and that only works when people trust us.' },
   { n: '02', title: 'On Time, Every Time', body: 'We show up when we say we will. We keep you informed as work progresses. When we are done, we clear up properly. It sounds basic, but it is how we have operated since day one.' },
-  { n: '03', title: 'Materials We Would Use at Home', body: 'We do not substitute quality materials for cheaper alternatives to save a few pounds. Every component that goes on your [TRADE WORK] is something we would put on our own.' },
+  { n: '03', title: 'Materials We Would Use at Home', body: 'We do not substitute quality materials for cheaper alternatives to save a few pounds. Every component that goes on your roof is something we would put on our own.' },
   { n: '04', title: 'Work That Actually Lasts', body: 'A quick fix that fails in 18 months is not a fix — it is an inconvenience with a delayed bill attached. We take the time to do things properly so you are not calling us back for the same problem.' },
 ]
 
@@ -23,10 +23,10 @@ export default function About() {
         <div style={{ maxWidth: '1152px', margin: '0 auto', padding: '0 24px', position: 'relative' }}>
           <div className="label" style={{ marginBottom: '24px' }}>Our Story</div>
           <h1 className="display" style={{ fontSize: 'clamp(52px,8vw,108px)', color: '#f6f1e9', maxWidth: '700px' }}>
-            About [AREA]<br /><span style={{ color: '#e09118' }}>[TRADE] Solutions.</span>
+            About [AREA]<br /><span style={{ color: '#e09118' }}>Roofing Solutions.</span>
           </h1>
           <p style={{ fontFamily: "'Lora',serif", fontStyle: 'italic', fontSize: 'clamp(15px,1.4vw,17px)', lineHeight: 1.8, color: '#6e8aaa', maxWidth: '520px', marginTop: '24px' }}>
-            A [TRADE] company that takes pride in its work, looks after its customers, and always turns up when it says it will.
+            A roofing company that takes pride in its work, looks after its customers, and always turns up when it says it will.
           </p>
         </div>
       </section>
@@ -43,7 +43,7 @@ export default function About() {
                 <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 700, fontSize: '13px', letterSpacing: '0.16em', textTransform: 'uppercase', color: '#e09118', marginTop: '10px' }}>Years Trading</div>
               </div>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
-                {[['[JOBS COMPLETED]+', '[TRADE WORK]s Completed'], ['£0', 'Hidden Fees'], ['100%', 'Fully Insured'], ['[AREA]', 'Coverage']].map(([n, l]) => (
+                {[['[JOBS COMPLETED]+', 'Roofs Completed'], ['£0', 'Hidden Fees'], ['100%', 'Fully Insured'], ['[AREA]', 'Coverage']].map(([n, l]) => (
                   <div key={l} style={{ background: 'white', padding: '20px', borderTop: '3px solid #e09118' }}>
                     <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 900, fontSize: '28px', color: '#07101f', lineHeight: 1 }}>{n}</div>
                     <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 700, fontSize: '10px', letterSpacing: '0.14em', textTransform: 'uppercase', color: '#8fa3b5', marginTop: '6px' }}>{l}</div>
@@ -127,7 +127,7 @@ export default function About() {
               <ul style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                 {[
                   'Full public liability insurance — covered on every job',
-                  'Works to current British Standard for [TRADE] ([INDUSTRY STANDARD])',
+                  'Works to current British Standard for roofing ([INDUSTRY STANDARD])',
                   'All materials sourced from approved UK suppliers',
                   'Ongoing professional development to stay current',
                   'DBS checked — safe to work in occupied homes',

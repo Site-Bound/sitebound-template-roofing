@@ -63,7 +63,7 @@ export default function Navbar() {
                 fontWeight: 700, fontSize: '11px', letterSpacing: '0.12em',
                 color: '#e09118', textTransform: 'uppercase', lineHeight: 1,
               }}>
-                [TRADE] Solutions
+                Roofing Solutions
               </div>
             </div>
           </Link>

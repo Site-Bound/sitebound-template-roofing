@@ -19,7 +19,7 @@ export default function Footer() {
               </div>
               <div>
                 <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 800, fontSize: '15px', color: '#f6f1e9', textTransform: 'uppercase', letterSpacing: '0.04em' }}>[AREA]</div>
-                <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 700, fontSize: '10px', color: '#e09118', textTransform: 'uppercase', letterSpacing: '0.12em' }}>[TRADE] Solutions</div>
+                <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 700, fontSize: '10px', color: '#e09118', textTransform: 'uppercase', letterSpacing: '0.12em' }}>Roofing Solutions</div>
               </div>
             </Link>
             <p style={{ fontFamily: "'Lora',serif", fontStyle: 'italic', fontSize: '14px', color: '#6e8aaa', lineHeight: 1.7 }}>
@@ -34,7 +34,7 @@ export default function Footer() {
           <div>
             <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 700, fontSize: '11px', letterSpacing: '0.16em', textTransform: 'uppercase', color: '#e09118', marginBottom: '20px' }}>Services</div>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '10px' }}>
-              {['New [TRADE WORK]s', '[TRADE WORK] Repairs', 'Flat [TRADE WORK]s', 'Guttering & Fascias', 'Chimney Work', 'Emergency Call Outs'].map(s => (
+              {['[SERVICE 1 NAME]', '[SERVICE 2 NAME]', '[SERVICE 3 NAME]', '[SERVICE 4 NAME]', '[SERVICE 5 NAME]', '[SERVICE 6 NAME]'].map(s => (
                 <li key={s}>
                   <Link to="/services" style={{ fontFamily: "'Lora',serif", fontSize: '13px', color: '#6e8aaa', textDecoration: 'none', transition: 'color 0.2s' }}
                     onMouseEnter={e => e.target.style.color = '#bfcfe8'}

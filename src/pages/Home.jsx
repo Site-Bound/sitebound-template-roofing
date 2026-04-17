@@ -4,33 +4,33 @@ import { useReveal } from '../hooks/useReveal'
 const SERVICES = [
   {
     icon: <svg width="28" height="28" fill="none" stroke="#e09118" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3 10.5L12 3l9 7.5V21H3V10.5z"/></svg>,
-    title: 'New [TRADE WORK]s',
+    title: '[SERVICE 1 NAME]',
     desc: 'Full installations from strip to finish — slate, tile, and modern systems built to last decades.',
   },
   {
     icon: <svg width="28" height="28" fill="none" stroke="#e09118" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path strokeLinecap="round" strokeLinejoin="round" d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>,
-    title: '[TRADE WORK] Repairs',
+    title: '[SERVICE 2 NAME]',
     desc: 'From a single slipped slate to a persistent leak nobody else can find — we track it down and fix it.',
   },
   {
     icon: <svg width="28" height="28" fill="none" stroke="#e09118" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 8h16M4 12h16M4 16h16"/></svg>,
-    title: 'Flat [TRADE WORK]s',
+    title: '[SERVICE 3 NAME]',
     desc: 'GRP fibreglass, EPDM rubber, and felt systems installed with proper falls and full waterproofing guarantees.',
   },
   {
     icon: <svg width="28" height="28" fill="none" stroke="#e09118" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M6 3h12M6 3a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2M6 3v3m12-3v3M6 6h12"/></svg>,
-    title: 'Guttering',
+    title: '[SERVICE 4 NAME]',
     desc: 'New gutters, fascias, and downpipes fitted or replaced. Protect your walls before water causes real damage.',
   },
   {
     icon: <svg width="28" height="28" fill="none" stroke="#e09118" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0H5m14 0h2M5 21H3M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>,
-    title: 'Chimney Work',
+    title: '[SERVICE 5 NAME]',
     desc: 'Repointing, lead flashing, pot replacement, and full stack rebuilds — keeping your chimney tight.',
   },
   {
     icon: <svg width="28" height="28" fill="none" stroke="#e09118" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>,
-    title: 'Emergency Call Outs',
-    desc: 'Storm damage, active leaks, [TRADE WORK] blown off — we respond fast to make your property safe and weathertight.',
+    title: '[SERVICE 6 NAME]',
+    desc: 'Storm damage, active leaks, roof blown off — we respond fast to make your property safe and weathertight.',
   },
 ]
 
@@ -40,12 +40,12 @@ const REASONS = [
   { n: '03', title: 'No Hidden Costs. Ever.', body: 'Every quote is clear, itemised, and agreed before we start. What we quote is what you pay. We will never hit you with extras once the work is underway.' },
   { n: '04', title: 'Built on Word of Mouth', body: 'Our reputation has grown almost entirely through recommendations. We are not a national franchise — we care about every job because our next customer hears about it from the last one.' },
   { n: '05', title: 'Quality Materials Throughout', body: 'We only use materials we trust. No substitutions, no budget alternatives slipped in without telling you. Every job is done the way we would want our own home done.' },
-  { n: '06', title: 'Free [TRADE WORK] Inspections', body: 'Not sure if you have a problem? We will come and look, give you an honest opinion, and tell you exactly what — if anything — needs doing. No charge, no obligation.' },
+  { n: '06', title: 'Free Roof Inspections', body: 'Not sure if you have a problem? We will come and look, give you an honest opinion, and tell you exactly what — if anything — needs doing. No charge, no obligation.' },
 ]
 
 const TRUST = [
   { fig: '[YEARS TRADING]+', sub: 'Years Trading' },
-  { fig: '[JOBS COMPLETED]+', sub: '[TRADE WORK]s Completed' },
+  { fig: '[JOBS COMPLETED]+', sub: 'Roofs Completed' },
   { fig: '100%', sub: 'Fully Insured' },
   { fig: '£0', sub: 'Call-Out Charge' },
 ]
@@ -68,7 +68,7 @@ export default function Home() {
           flexDirection: 'column',
         }}
       >
-        {/* Background decorative SVG — layered [TRADE WORK] lines */}
+        {/* Background decorative SVG — layered roof lines */}
         <div
           aria-hidden
           style={{
@@ -126,7 +126,7 @@ export default function Home() {
                   letterSpacing: '-0.02em',
                 }}
               >
-                [TRADE].
+                ROOFING.
               </div>
               <div
                 className="display h-anim"
@@ -211,7 +211,7 @@ export default function Home() {
               className="display reveal d1"
               style={{ fontSize: 'clamp(40px, 5.5vw, 72px)', color: '#07101f', maxWidth: '600px' }}
             >
-              Every [TRADE] Job<br />Covered.
+              Every Roofing Job<br />Covered.
             </h2>
           </div>
 
@@ -255,7 +255,7 @@ export default function Home() {
             </div>
             <div className="reveal d2" style={{ paddingTop: '8px' }}>
               <p style={{ fontFamily: "'Lora',serif", fontSize: '16px', lineHeight: 1.85, color: '#6e8aaa' }}>
-                There is no shortage of [TRADE PERSON]s in the [AREA]. What separates the good ones from the rest is simple: turning up on time, doing the job properly, and standing behind the work. That is what we have built our reputation on — one [TRADE WORK] at a time, entirely through word of mouth.
+                There is no shortage of roofers in the [AREA]. What separates the good ones from the rest is simple: turning up on time, doing the job properly, and standing behind the work. That is what we have built our reputation on — one roof at a time, entirely through word of mouth.
               </p>
             </div>
           </div>
@@ -288,7 +288,7 @@ export default function Home() {
                 Years in the Trade
               </div>
               <div style={{ display: 'flex', gap: '48px', flexWrap: 'wrap' }}>
-                {[['[JOBS COMPLETED]+', '[TRADE WORK]s Completed'], ['100%', 'Fully Insured'], ['0', 'Hidden Fees']].map(([n, l]) => (
+                {[['[JOBS COMPLETED]+', 'Roofs Completed'], ['100%', 'Fully Insured'], ['0', 'Hidden Fees']].map(([n, l]) => (
                   <div key={l}>
                     <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 900, fontSize: '32px', color: '#07101f', lineHeight: 1 }}>{n}</div>
                     <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 700, fontSize: '11px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#8fa3b5', marginTop: '4px' }}>{l}</div>
@@ -301,7 +301,7 @@ export default function Home() {
             <div className="reveal">
               <div className="label-static" style={{ color: '#e09118', marginBottom: '20px' }}>About Us</div>
               <h2 className="display" style={{ fontSize: 'clamp(36px,4.5vw,58px)', color: '#07101f', marginBottom: '24px' }}>
-                [TRADE] Built on<br />Reputation.
+                Roofing Built on<br />Reputation.
               </h2>
               <p style={{ fontFamily: "'Lora',serif", fontSize: '15px', lineHeight: 1.85, color: '#5a7080', marginBottom: '16px' }}>
                 [BUSINESS NAME] has been serving the [AREA] since [YEAR ESTABLISHED]. Built on a straightforward idea: do quality work, be straight with customers, and stand behind every job.
@@ -324,7 +324,7 @@ export default function Home() {
       <section style={{ background: 'linear-gradient(135deg, #c4780c 0%, #e09118 50%, #f5b030 100%)', padding: 'clamp(56px,7vw,96px) 0' }}>
         <div style={{ maxWidth: '1152px', margin: '0 auto', padding: '0 24px', textAlign: 'center' }}>
           <h2 className="display" style={{ fontSize: 'clamp(40px,6vw,80px)', color: '#07101f', marginBottom: '20px' }}>
-            Let's Get Your<br />[TRADE WORK] Sorted.
+            Let's Get Your<br />Roof Sorted.
           </h2>
           <p style={{ fontFamily: "'Lora',serif", fontStyle: 'italic', fontSize: 'clamp(15px,1.5vw,18px)', color: 'rgba(7,16,31,0.65)', marginBottom: '40px', maxWidth: '500px', margin: '0 auto 40px' }}>
             Free inspection, honest quote, no obligation. We cover [COVERAGE TOWN 1], [COVERAGE TOWN 2], [COVERAGE TOWN 3], [COVERAGE TOWN 4], and all surrounding areas.
