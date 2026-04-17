@@ -4,38 +4,38 @@ import { useReveal } from '../hooks/useReveal'
 const SERVICES = [
   {
     icon: <svg width="28" height="28" fill="none" stroke="#e09118" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3 10.5L12 3l9 7.5V21H3V10.5z"/></svg>,
-    title: '[SERVICE 1 NAME]',
+    title: 'New Roofs',
     desc: 'Full installations from strip to finish — slate, tile, and modern systems built to last decades.',
   },
   {
     icon: <svg width="28" height="28" fill="none" stroke="#e09118" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path strokeLinecap="round" strokeLinejoin="round" d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>,
-    title: '[SERVICE 2 NAME]',
+    title: 'Roof Repairs',
     desc: 'From a single slipped slate to a persistent leak nobody else can find — we track it down and fix it.',
   },
   {
     icon: <svg width="28" height="28" fill="none" stroke="#e09118" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 8h16M4 12h16M4 16h16"/></svg>,
-    title: '[SERVICE 3 NAME]',
+    title: 'Flat Roofs',
     desc: 'GRP fibreglass, EPDM rubber, and felt systems installed with proper falls and full waterproofing guarantees.',
   },
   {
     icon: <svg width="28" height="28" fill="none" stroke="#e09118" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M6 3h12M6 3a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2M6 3v3m12-3v3M6 6h12"/></svg>,
-    title: '[SERVICE 4 NAME]',
+    title: 'Guttering & Fascias',
     desc: 'New gutters, fascias, and downpipes fitted or replaced. Protect your walls before water causes real damage.',
   },
   {
     icon: <svg width="28" height="28" fill="none" stroke="#e09118" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0H5m14 0h2M5 21H3M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>,
-    title: '[SERVICE 5 NAME]',
+    title: 'Chimney Work',
     desc: 'Repointing, lead flashing, pot replacement, and full stack rebuilds — keeping your chimney tight.',
   },
   {
     icon: <svg width="28" height="28" fill="none" stroke="#e09118" strokeWidth="1.8" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>,
-    title: '[SERVICE 6 NAME]',
+    title: 'Emergency Call Outs',
     desc: 'Storm damage, active leaks, roof blown off — we respond fast to make your property safe and weathertight.',
   },
 ]
 
 const REASONS = [
-  { n: '01', title: '[YEARS TRADING] Years of Experience', body: 'Operating across the [AREA] since [YEAR ESTABLISHED], we have worked on hundreds of properties — from Victorian terraces to modern extensions. When we say we have seen it before, we mean it.' },
+  { n: '01', title: 'X Years of Experience', body: 'Operating across the [AREA] since X, we have worked on hundreds of properties — from Victorian terraces to modern extensions. When we say we have seen it before, we mean it.' },
   { n: '02', title: 'Fully Insured on Every Job', body: 'Full public liability insurance is in place on every project we take on. You are covered, your property is covered, and there are no grey areas.' },
   { n: '03', title: 'No Hidden Costs. Ever.', body: 'Every quote is clear, itemised, and agreed before we start. What we quote is what you pay. We will never hit you with extras once the work is underway.' },
   { n: '04', title: 'Built on Word of Mouth', body: 'Our reputation has grown almost entirely through recommendations. We are not a national franchise — we care about every job because our next customer hears about it from the last one.' },
@@ -44,8 +44,8 @@ const REASONS = [
 ]
 
 const TRUST = [
-  { fig: '[YEARS TRADING]+', sub: 'Years Trading' },
-  { fig: '[JOBS COMPLETED]+', sub: 'Roofs Completed' },
+  { fig: 'X+', sub: 'Years Trading' },
+  { fig: 'X+', sub: 'Roofs Completed' },
   { fig: '100%', sub: 'Fully Insured' },
   { fig: '£0', sub: 'Call-Out Charge' },
 ]
@@ -157,7 +157,7 @@ export default function Home() {
               }}
             >
               [BUSINESS NAME] has been keeping homes weatherproof across [COVERAGE TOWN 1],
-              [COVERAGE TOWN 2], [COVERAGE TOWN 3], and [COVERAGE TOWN 4] since [YEAR ESTABLISHED]. Honest quotes, quality materials,
+              [COVERAGE TOWN 2], [COVERAGE TOWN 3], and [COVERAGE TOWN 4] since X. Honest quotes, quality materials,
               and work that stands the test of time.
             </p>
 
@@ -283,12 +283,12 @@ export default function Home() {
                 fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 900,
                 fontSize: 'clamp(100px,16vw,200px)', color: '#07101f', lineHeight: 0.85,
                 letterSpacing: '-0.04em',
-              }}>[YEARS TRADING]</div>
+              }}>X</div>
               <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 700, fontSize: '14px', letterSpacing: '0.16em', textTransform: 'uppercase', color: '#e09118', marginTop: '8px', marginBottom: '32px' }}>
                 Years in the Trade
               </div>
               <div style={{ display: 'flex', gap: '48px', flexWrap: 'wrap' }}>
-                {[['[JOBS COMPLETED]+', 'Roofs Completed'], ['100%', 'Fully Insured'], ['0', 'Hidden Fees']].map(([n, l]) => (
+                {[['X+', 'Roofs Completed'], ['100%', 'Fully Insured'], ['0', 'Hidden Fees']].map(([n, l]) => (
                   <div key={l}>
                     <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 900, fontSize: '32px', color: '#07101f', lineHeight: 1 }}>{n}</div>
                     <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 700, fontSize: '11px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#8fa3b5', marginTop: '4px' }}>{l}</div>
@@ -304,7 +304,7 @@ export default function Home() {
                 Roofing Built on<br />Reputation.
               </h2>
               <p style={{ fontFamily: "'Lora',serif", fontSize: '15px', lineHeight: 1.85, color: '#5a7080', marginBottom: '16px' }}>
-                [BUSINESS NAME] has been serving the [AREA] since [YEAR ESTABLISHED]. Built on a straightforward idea: do quality work, be straight with customers, and stand behind every job.
+                [BUSINESS NAME] has been serving the [AREA] since X. Built on a straightforward idea: do quality work, be straight with customers, and stand behind every job.
               </p>
               <p style={{ fontFamily: "'Lora',serif", fontSize: '15px', lineHeight: 1.85, color: '#5a7080', marginBottom: '32px' }}>
                 Almost all of our business comes through recommendations. That is not an accident — it is the result of consistently doing things right, from the first phone call to the final clean-up.

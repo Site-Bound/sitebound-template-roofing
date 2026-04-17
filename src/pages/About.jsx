@@ -19,11 +19,11 @@ export default function About() {
     <>
       {/* Header */}
       <section style={{ background: '#07101f', paddingTop: '140px', paddingBottom: '72px', position: 'relative', overflow: 'hidden' }}>
-        <div aria-hidden style={{ position: 'absolute', bottom: '-60px', left: '-40px', fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 900, fontSize: 'clamp(140px,22vw,280px)', color: 'rgba(224,145,24,0.04)', lineHeight: 1, userSelect: 'none', pointerEvents: 'none' }}>[YEARS TRADING]</div>
+        <div aria-hidden style={{ position: 'absolute', bottom: '-60px', left: '-40px', fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 900, fontSize: 'clamp(140px,22vw,280px)', color: 'rgba(224,145,24,0.04)', lineHeight: 1, userSelect: 'none', pointerEvents: 'none' }}>X</div>
         <div style={{ maxWidth: '1152px', margin: '0 auto', padding: '0 24px', position: 'relative' }}>
           <div className="label" style={{ marginBottom: '24px' }}>Our Story</div>
           <h1 className="display" style={{ fontSize: 'clamp(52px,8vw,108px)', color: '#f6f1e9', maxWidth: '700px' }}>
-            About [AREA]<br /><span style={{ color: '#e09118' }}>Roofing Solutions.</span>
+            About<br /><span style={{ color: '#e09118' }}>[BUSINESS NAME]</span>
           </h1>
           <p style={{ fontFamily: "'Lora',serif", fontStyle: 'italic', fontSize: 'clamp(15px,1.4vw,17px)', lineHeight: 1.8, color: '#6e8aaa', maxWidth: '520px', marginTop: '24px' }}>
             A roofing company that takes pride in its work, looks after its customers, and always turns up when it says it will.
@@ -39,11 +39,11 @@ export default function About() {
             {/* Big stat */}
             <div className="reveal-left" style={{ position: 'relative' }}>
               <div style={{ borderLeft: '4px solid #e09118', paddingLeft: '28px', marginBottom: '40px' }}>
-                <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 900, fontSize: 'clamp(80px,13vw,160px)', color: '#07101f', lineHeight: 0.85 }}>[YEARS TRADING]</div>
+                <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 900, fontSize: 'clamp(80px,13vw,160px)', color: '#07101f', lineHeight: 0.85 }}>X</div>
                 <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 700, fontSize: '13px', letterSpacing: '0.16em', textTransform: 'uppercase', color: '#e09118', marginTop: '10px' }}>Years Trading</div>
               </div>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
-                {[['[JOBS COMPLETED]+', 'Roofs Completed'], ['£0', 'Hidden Fees'], ['100%', 'Fully Insured'], ['[AREA]', 'Coverage']].map(([n, l]) => (
+                {[['X+', 'Roofs Completed'], ['£0', 'Hidden Fees'], ['100%', 'Fully Insured'], ['[AREA]', 'Coverage']].map(([n, l]) => (
                   <div key={l} style={{ background: 'white', padding: '20px', borderTop: '3px solid #e09118' }}>
                     <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 900, fontSize: '28px', color: '#07101f', lineHeight: 1 }}>{n}</div>
                     <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 700, fontSize: '10px', letterSpacing: '0.14em', textTransform: 'uppercase', color: '#8fa3b5', marginTop: '6px' }}>{l}</div>
@@ -59,7 +59,7 @@ export default function About() {
               </h2>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
                 <p style={{ fontFamily: "'Lora',serif", fontSize: '15px', lineHeight: 1.85, color: '#5a7080' }}>
-                  [BUSINESS NAME] has served the [AREA] since [YEAR ESTABLISHED], built on a simple premise: be straight with customers, use decent materials, and do the job properly.
+                  [BUSINESS NAME] has served the [AREA] since X, built on a simple premise: be straight with customers, use decent materials, and do the job properly.
                 </p>
                 <p style={{ fontFamily: "'Lora',serif", fontSize: '15px', lineHeight: 1.85, color: '#5a7080' }}>
                   Over more than a decade, we have worked on hundreds of properties across the region — Victorian terraced houses, modern extensions, commercial units, and everything in between. The problems change, the standards do not.

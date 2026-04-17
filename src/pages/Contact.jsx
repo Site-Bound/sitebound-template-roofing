@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useReveal } from '../hooks/useReveal'
 
-const SERVICES = ['[SERVICE 1]', '[SERVICE 2]', '[SERVICE 3]', '[SERVICE 4]', '[SERVICE 5]', '[SERVICE 6]']
+const SERVICES = ['New Roof', 'Roof Repair', 'Flat Roof', 'Guttering & Fascias', 'Chimney Work', 'Emergency Call Out', 'Not Sure — Need Advice']
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', phone: '', email: '', service: '', message: '' })

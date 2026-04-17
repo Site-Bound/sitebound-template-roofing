@@ -26,7 +26,7 @@ export default function Footer() {
               [TAGLINE]
             </p>
             <p style={{ fontFamily: "'Lora',serif", fontSize: '13px', color: '#4e6880', lineHeight: 1.7, marginTop: '12px' }}>
-              Serving homeowners across the [AREA] since [YEAR ESTABLISHED].
+              Serving homeowners across the [AREA] since X.
             </p>
           </div>
 
@@ -34,7 +34,7 @@ export default function Footer() {
           <div>
             <div style={{ fontFamily: "'Big Shoulders Display',sans-serif", fontWeight: 700, fontSize: '11px', letterSpacing: '0.16em', textTransform: 'uppercase', color: '#e09118', marginBottom: '20px' }}>Services</div>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '10px' }}>
-              {['[SERVICE 1 NAME]', '[SERVICE 2 NAME]', '[SERVICE 3 NAME]', '[SERVICE 4 NAME]', '[SERVICE 5 NAME]', '[SERVICE 6 NAME]'].map(s => (
+              {['New Roofs', 'Roof Repairs', 'Flat Roofs', 'Guttering & Fascias', 'Chimney Work', 'Emergency Call Outs'].map(s => (
                 <li key={s}>
                   <Link to="/services" style={{ fontFamily: "'Lora',serif", fontSize: '13px', color: '#6e8aaa', textDecoration: 'none', transition: 'color 0.2s' }}
                     onMouseEnter={e => e.target.style.color = '#bfcfe8'}
